@@ -91,6 +91,11 @@ Minor features
   now have a new method ``get_error_message()``, which can be overridden in
   subclasses to customize the error messages.
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 :mod:`django.contrib.contenttypes`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
